@@ -1,0 +1,382 @@
+/* *****Variables*** */
+:root {
+  --primary: #0058a3;
+  --base: #f5f5f5;
+  --dark: #111;
+  --col: #666;
+  --hover: rgb(206, 200, 200);
+}
+/*****************Nav Bar*************/
+.Nav {
+  width: 97vw;
+  padding: 5px;
+  /* background: coral; */
+}
+.Nav-ul {
+  cursor: pointer;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.flex {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.flex-row ul {
+  display: flex;
+  padding-top: 0.4em;
+}
+.flex-row li {
+  margin-left: 3%;
+}
+.left {
+  width: 25vw;
+}
+.left-con {
+  min-width: 370px;
+  padding: 0.7em;
+  display: flex;
+  flex: none;
+  font-weight: 700;
+  font-size: 1.1rem;
+  width: 40vw;
+}
+.left-con li {
+  margin-left: 1.6em;
+}
+/* .right {
+  /* margin-right: 1em; */
+/* */
+.right li {
+  padding: 0.5em;
+  margin-left: 0.5em;
+  transition: transform 0.3s ease-out;
+}
+.hover-con li:hover {
+  background-color: var(--hover);
+  border-radius: 70px;
+  transform: translate(0, -1px);
+}
+.right img {
+  height: 20px;
+  width: 29px;
+}
+.right li a {
+  font-size: 1.3em;
+}
+.right-con {
+  display: flex;
+}
+/* media Query*/
+@media screen and (max-width: 990px) {
+  .left-con {
+    display: none;
+  }
+}
+/**************Main*****************/
+.main {
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 700px;
+}
+.wrapper {
+  padding: 1rem;
+  max-width: 770px;
+  margin-top: 2em;
+}
+.wrapper p {
+  font-size: 14px;
+  margin-top: revert;
+  color: var(--col);
+}
+.wrapper a {
+  color: var(--dark);
+  cursor: pointer;
+  text-decoration: underline;
+  word-spacing: 0.5px;
+  color: var(--col);
+}
+.aval {
+  margin-top: 1em;
+}
+.Card {
+  margin: 1.7% -2%;
+}
+.btn {
+  cursor: pointer;
+  font-weight: 700;
+  margin: -0.3% 2%;
+  width: 237px;
+  height: 48px;
+  border-radius: 40px;
+  text-align: center;
+  padding: 13px 0;
+  border: none;
+  font-size: 14px;
+}
+/************Card*************/
+.product img {
+  height: 136px;
+  width: 136px;
+  cursor: pointer;
+}
+.product {
+  margin-top: 1.5em;
+  display: flex;
+  height: 115px;
+}
+.content-text {
+  margin-left: 2em;
+  line-height: 26px;
+}
+.main-content {
+  margin: auto;
+  padding: 2rem;
+  max-width: 750px;
+  margin-top: 0em;
+  border-bottom: 1px solid #dfdfdf;
+  padding-top: 3px;
+  padding-bottom: 26px;
+}
+.content-text p {
+  margin-top: initial;
+  font-size: 14px;
+  color: var(--col);
+}
+.Price {
+  line-height: 38px;
+  overflow: hidden;
+}
+.Item-select {
+  width: 75px;
+  height: 40px;
+  border-radius: 40px;
+  border: 1px solid #dfdfdf;
+  overflow: hidden;
+}
+.Item-select select {
+  height: 38px;
+  border: none;
+  background: #fff;
+  width: 97%;
+  padding: 0px 17px;
+  outline: none;
+  font-weight: 700;
+}
+.Item-select option {
+  font-weight: 700;
+}
+/**********************Home Screen************************/
+.image img {
+  height: 210px;
+  margin: 1em auto;
+}
+.image {
+  vertical-align: middle;
+  text-align: center;
+  max-width: 770px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+.image h3 {
+  font-size: 20px;
+  color: var(--dark);
+  padding: 5px 0 0px;
+}
+.content-wrapper {
+  padding: 40px 20px;
+  text-align: center;
+  padding: 35px 0 45px;
+}
+.content-wrapper button {
+  background: var(--primary);
+  color: var(--base);
+  margin-top: 20px;
+  width: 186px;
+}
+.content-wrapper p {
+  margin-bottom: 1em;
+}
+@media screen and (max-width: 540px) {
+  .content-wrapper button {
+    display: table;
+    width: 210px;
+    margin-bottom: 10px;
+    transform: translate(55%, 17px);
+  }
+}
+
+/*************Article**************/
+.article {
+  text-align: center;
+  color: var(--primary);
+  font-size: 16px;
+  margin-top: 1em;
+}
+.after {
+  color: var(--primary);
+  padding-bottom: 20px;
+  max-width: 641px;
+  margin: auto;
+  margin-top: 1em;
+}
+.article p {
+  padding-bottom: 5px;
+  margin: 1em;
+}
+.atricle-form {
+  border-bottom: none;
+  justify-content: center;
+  display: flex;
+  padding: 0px 0 0.5em;
+}
+.article-btn {
+  display: inline-block;
+  padding: 0 30px;
+}
+.article-content input {
+  height: 46px;
+  border-radius: 100px;
+  border: 1px solid var(--primary);
+  outline: none;
+  padding: 10px 20px;
+  display: inline-block;
+  width: 295px;
+}
+.article-content button {
+  width: 135px;
+  height: 46px;
+  border-radius: 100px;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background: var(--base);
+  outline: none;
+  padding: 0 30px;
+  font-size: 14px;
+  font-weight: 600;
+}
+@media (max-width: 575px) {
+  .article-content input {
+    width: 100%;
+  }
+  .article-content {
+    text-align: center;
+  }
+  .article-content button {
+    width: 165px;
+    margin-top: 15px;
+  }
+}
+/* **************Footer************/
+footer {
+  height: 185px;
+  color: var(--base);
+  background: var(--primary);
+  padding: 2rem 0 0rem;
+  width: 100%;
+}
+.foot p {
+  font-size: 0.75rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.foot {
+  margin-top: 2em;
+}
+.footer-content {
+  text-align: center;
+  padding-bottom: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.footer-content ul,
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.footer-content ul {
+  padding: 0;
+  margin: 0;
+}
+.footer-content li {
+  margin: 0 0 0.5rem;
+  padding: 0;
+}
+.footer-content a {
+  color: var(--base);
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 2em;
+}
+/* ***************card-Button**************** */
+.select-btn {
+  margin: auto;
+  width: 51.5%;
+  display: flex;
+}
+.Item-select {
+  display: inline-block;
+}
+.btn-img {
+  width: 40px;
+  height: 40px;
+  background: #f5f5f5;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 2em;
+}
+
+.btn-img img {
+  width: 20px;
+  height: 30px;
+}
+.btn-delete {
+  border: none;
+  height: 0px;
+  margin-top: 0.4em;
+}
+.btn-img:hover {
+  background-color: var(--hover);
+  border-radius: 70px;
+  transform: translate(0, -1px);
+}
+
+/* *****************Total Price***************** */
+.total-price {
+  display: flex;
+  padding-bottom: 30px;
+  max-width: 757px;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 1.9em;
+}
+.total-price p {
+  font-size: 14px;
+  font-weight: 750;
+}
+#str {
+  font-size: 16px;
+}
+/* ***************Check Out ***************** */
+.check-Out,
+button {
+  margin: auto;
+  margin-bottom: 45px;
+  width: 450px;
+}
+.check-Out button {
+  max-width: 390px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: var(--primary);
+  width: 100%;
+  border: 0;
+  color: #fff;
+}

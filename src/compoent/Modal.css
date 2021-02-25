@@ -1,0 +1,141 @@
+:root {
+  --primary: #0058a3;
+  --base: #ffffff;
+  --dark: #111;
+  --col: #666;
+  --hover: rgb(206, 200, 200);
+  --secondary: rgb(250, 85, 85);
+}
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: var(--base);
+  width: 80%;
+  border: 3px solid var(--hover);
+  box-shadow: 2px 3px 2px var(--dark);
+  padding: 16px;
+  left: 15%;
+  top: 30%;
+  box-sizing: border-box;
+  transition: all 0.8s ease-out;
+}
+.sure {
+  width: 200px;
+  margin-top: 2em;
+  justify-content: center;
+  box-shadow: 2px 3px 2px var(--dark);
+}
+
+.cancel {
+  width: 200px;
+  margin-top: 2em;
+  justify-content: center;
+  box-shadow: 2px 3px 2px var(--dark);
+}
+
+.btn-modal {
+  display: flex;
+  margin: auto;
+  margin-top: 2em;
+}
+.btn-modal button:hover {
+  background-color: var(--hover);
+}
+@media (min-width: 600px) {
+  .Modal {
+    width: 500px;
+    left: calc(50% - 250px);
+  }
+}
+#modal-p {
+  font: size 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--col);
+}
+/* ***************WishLish************** */
+.wishList-cona {
+  width: 28%;
+  height: 500px;
+  overflow-y: scroll;
+  position: fixed;
+  right: 0px;
+  padding: 10px;
+  min-height: 350px;
+  max-width: 500px;
+  min-width: 200px;
+  background-image: radial-gradient(var(--hover) 7.2%, transparent 0);
+  background-size: 26px 26px;
+  border-radius: 5px;
+  box-shadow: 4px 3px 7px 2px var(--col);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.Wish-container {
+  width: 24vw;
+  height: 25vh;
+  border-bottom: 3px solid var(--dark);
+  padding-top: 5px;
+}
+
+.wish-list img {
+  width: 140px;
+  height: 100px;
+  border: 3px solid var(--dark);
+}
+.wish-list {
+  display: flex;
+}
+.wishList-text h4 {
+  font-size: 16px;
+  margin-left: 2em;
+}
+.wishList-text p {
+  font-size: 13px;
+  margin-left: 2.3em;
+  width: 250px;
+}
+#articl {
+  color: var(--primary);
+}
+#sp {
+  font-size: 14px;
+  font-weight: 600;
+}
+.Wish-Price {
+  color: var(--secondary);
+  font-size: 14px;
+  font-weight: 750;
+}
+.btn-Wish {
+  margin-top: 9px;
+  width: 90px;
+  height: 32px;
+  margin-left: 1.5em;
+  cursor: pointer;
+  border: 3px solid var(--primary);
+  border-radius: 5px;
+  padding-bottom: 3px;
+  background-color: (--hover);
+}
+.dele-button {
+  width: 149px;
+}
+.dele-button img {
+  height: 25px;
+  width: auto;
+  border: none;
+}
+.dele {
+  margin-top: 9px;
+  width: 60px;
+  height: 30px;
+  border: 3px solid var(--dark);
+  border-radius: 5px;
+  padding-bottom: 25px;
+  border: 3px solid var(--primary);
+  background-color: (--hover);
+}
+.btn-xon {
+  display: flex;
+}
